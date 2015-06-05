@@ -21,12 +21,12 @@
 Unit tests for objects created from discovery documents.
 """
 from __future__ import absolute_import
-import six
+from django.utils import six
 
 __author__ = 'jcgregorio@google.com (Joe Gregorio)'
 
-from six import BytesIO, StringIO
-from six.moves.urllib.parse import urlparse, parse_qs
+from django.utils.six import BytesIO, StringIO
+from django.utils.six.moves.urllib.parse import urlparse, parse_qs
 
 import copy
 import datetime

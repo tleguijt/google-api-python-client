@@ -29,7 +29,7 @@ import googleapiclient.model
 from googleapiclient.errors import HttpError
 from googleapiclient.model import ProtocolBufferModel
 
-from six.moves.urllib.parse import parse_qs
+from django.utils.six.moves.urllib.parse import parse_qs
 
 
 class MockProtocolBuffer(object):

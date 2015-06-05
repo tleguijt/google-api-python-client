@@ -19,13 +19,13 @@ object supporting an execute() method that does the
 actuall HTTP request.
 """
 from __future__ import absolute_import
-import six
-from six.moves import range
+from django.utils import six
+from django.utils.six.moves import range
 
 __author__ = 'jcgregorio@google.com (Joe Gregorio)'
 
-from six import BytesIO, StringIO
-from six.moves.urllib.parse import urlparse, urlunparse, quote, unquote
+from django.utils.six import BytesIO, StringIO
+from django.utils.six.moves.urllib.parse import urlparse, urlunparse, quote, unquote
 
 import base64
 import copy

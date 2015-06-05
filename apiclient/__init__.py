@@ -1,6 +1,6 @@
 """Retain apiclient as an alias for googleapiclient."""
 
-from six import iteritems
+from django.utils.six import iteritems
 
 import googleapiclient
 

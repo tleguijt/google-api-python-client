@@ -19,7 +19,7 @@
 Unit tests for the JSON model.
 """
 from __future__ import absolute_import
-import six
+from django.utils import six
 
 __author__ = 'jcgregorio@google.com (Joe Gregorio)'
 
@@ -34,7 +34,7 @@ from googleapiclient import __version__
 from googleapiclient.errors import HttpError
 from googleapiclient.model import JsonModel
 
-from six.moves.urllib.parse import parse_qs
+from django.utils.six.moves.urllib.parse import parse_qs
 
 
 class Model(unittest.TestCase):

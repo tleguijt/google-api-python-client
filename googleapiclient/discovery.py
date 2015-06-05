@@ -17,8 +17,8 @@
 A client library for Google's discovery based APIs.
 """
 from __future__ import absolute_import
-import six
-from six.moves import zip
+from django.utils import six
+from django.utils.six.moves import zip
 
 __author__ = 'jcgregorio@google.com (Joe Gregorio)'
 __all__ = [
@@ -28,8 +28,8 @@ __all__ = [
     'key2param',
     ]
 
-from six import StringIO
-from six.moves.urllib.parse import urlencode, urlparse, urljoin, \
+from django.utils.six import StringIO
+from django.utils.six.moves.urllib.parse import urlencode, urlparse, urljoin, \
   urlunparse, parse_qsl
 
 # Standard library imports

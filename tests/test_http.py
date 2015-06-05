@@ -19,14 +19,14 @@
 Unit tests for the googleapiclient.http.
 """
 from __future__ import absolute_import
-from six.moves import range
+from django.utils.six.moves import range
 
 __author__ = 'jcgregorio@google.com (Joe Gregorio)'
 
-from six import PY3
-from six import BytesIO, StringIO
+from django.utils.six import PY3
+from django.utils.six import BytesIO, StringIO
 from io import FileIO
-from six.moves.urllib.parse import urlencode
+from django.utils.six.moves.urllib.parse import urlencode
 
 # Do not remove the httplib2 import
 import httplib2

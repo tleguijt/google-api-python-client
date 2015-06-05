@@ -1,3 +1,6 @@
+# Fork info
+This fork has been adjusted to play well with the Django modifications on the six libarary. Some imports aren't available when running in Django, since Django modifies the import paths of the six library
+
 # About
 This is the Python client library for Google's discovery based APIs. To get started, please see the [full documentation for this library](http://google.github.io/google-api-python-client). Additionally, [dynamically generated documentation](http://api-python-client-doc.appspot.com/) is available for all of the APIs supported by this library.
 

@@ -62,7 +62,7 @@ import uuid
 
 from googleapiclient import errors
 from oauth2client import util
-import six
+from django.utils import six
 
 
 # The unix time epoch starts at midnight 1970.

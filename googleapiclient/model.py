@@ -20,14 +20,14 @@ for converting between the wire format and the Python
 object representation.
 """
 from __future__ import absolute_import
-import six
+from django.utils import six
 
 __author__ = 'jcgregorio@google.com (Joe Gregorio)'
 
 import json
 import logging
 
-from six.moves.urllib.parse import urlencode
+from django.utils.six.moves.urllib.parse import urlencode
 
 from googleapiclient import __version__
 from googleapiclient.errors import HttpError
